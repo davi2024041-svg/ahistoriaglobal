@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>História Global | Explorando o Passado</title>
+   
+    <style>
+        /* RESET BÁSICO */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        /* ESTILO DO CORPO - PAPEL ANTIGO */
+        body {
+            font-family: 'Georgia', serif;
+            background-color: #f7f3e8;
+            color: #333;
+            line-height: 1.6;
+        }
+
+        /* CABEÇALHO */
+        header {
+            background-color: #4a2c1e;
+            color: white;
+            padding: 30px 20px;
+            text-align: center;
+            border-bottom: 5px solid #a37b4a;
+        }
+
+        header h1 {
+            font-size: 2.5em;
+            margin-bottom: 5px;
+        }
+
+        /* NAVEGAÇÃO */
+        nav {
+            text-align: center;
+            padding: 10px 0;
+            background-color: #e0d9c4;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        }
+
+        nav a {
+            display: inline-block;
+            padding: 10px 20px;
+            text-decoration: none;
+            color: #4a2c1e;
+            font-weight: bold;
+            transition: background-color 0.3s;
+        }
+
+        nav a:hover {
+            background-color: #c9c1b0;
+        }
+
+        /* CONTEÚDO */
+        main {
+            max-width: 900px;
+            margin: 20px auto;
+            padding: 20px;
+            background-color: white;
+            border: 1px solid #ddd;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.05);
+        }
+
+        section {
+            padding: 20px 0;
+            border-bottom: 1px dashed #ccc;
+            margin-bottom: 30px;
+        }
+
+        section:last-child {
+            border-bottom: none;
+            margin-bottom: 0;
+        }
+
+        h2 {
+            color: #a37b4a;
+            margin-bottom: 15px;
+            border-bottom: 2px solid #e0d9c4;
+            padding-bottom: 5px;
+        }
+
+        h3 {
+            margin-top: 25px;
+            color: #4a2c1e;
+        }
+
+        /* CARDS */
+        .card-evento {
+            background-color: #fff9e9;
+            border-left: 5px solid #a37b4a;
+            padding: 15px;
+            margin: 15px 0;
+            border-radius: 4px;
+            box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.05);
+        }
+
+        .card-evento h4 {
+            margin-top: 0;
+            color: #4a2c1e;
+        }
+
+        /* BOTÃO PARA PRÓXIMA PÁGINA */
+        .botao-proxima-pagina {
+            display: block;
+            width: 250px;
+            margin: 40px auto;
+            padding: 15px;
+            background-color: #a37b4a;
+            color: white;
+            font-size: 1.1em;
+            font-weight: bold;
+            text-align: center;
+            border-radius: 8px;
+            text-decoration: none;
+            transition: 0.3s;
+        }
+
+        .botao-proxima-pagina:hover {
+            background-color: #8b653f;
+        }
+
+        /* RODAPÉ */
+        footer {
+            text-align: center;
+            padding: 10px;
+            margin-top: 30px;
+            background-color: #4a2c1e;
+            color: #e0d9c4;
+            font-size: 0.8em;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>História Global</h1>
+        <p>A Jornada da Humanidade através dos Séculos</p>
+    </header>
+
+    <nav>
+        <a href="#antiga">Antiga</a>
+        <a href="#medieval">Medieval</a>
+        <a href="#moderna">Moderna</a>
+        <a href="#contemporanea">Contemporânea</a>
+    </nav>
+
+    <main>
+
+        <section id="antiga">
+            <h2>🌍 Antiguidade (c. 3000 a.C. - 476 d.C.)</h2>
+            <p>O berço das civilizações...</p>
+
+            <h3>Eventos Chave</h3>
+
+            <div class="card-evento">
+                <h4>Invenção da Escrita</h4>
+                <p>c. 3200 a.C.</p>
+            </div>
+
+            <div class="card-evento">
+                <h4>Apogeu da Democracia Ateniense</h4>
+                <p>Século V a.C.</p>
+            </div>
+
+            <div class="card-evento">
+                <h4>Queda do Império Romano</h4>
+                <p>476 d.C.</p>
+            </div>
+        </section>
+
+        <section id="medieval">
+            <h2>⚔️ Idade Média (476 d.C. - 1453/1492)</h2>
+            <p>Período marcado pelo feudalismo e cruzadas...</p>
+        </section>
+
+        <section id="moderna">
+            <h2>🧭 Idade Moderna (1453/1492 - 1789)</h2>
+            <p>Renascimento, Reforma e expansão marítima...</p>
+        </section>
+
+        <section id="contemporanea">
+            <h2>🚀 Idade Contemporânea (1789 - Presente)</h2>
+            <p>Indústria, guerras mundiais e tecnologia...</p>
+        </section>
+
+        <!-- BOTÃO PARA A OUTRA PÁGINA -->
+        <a href="civilizacoes.html" class="botao-proxima-pagina">
+            ➜ Acessar Próxima Página
+        </a>
+
+    </main>
+
+    <footer>
+        <p>&copy; 2025 História Global | Um projeto de código aberto.</p>
+    </footer>
+
+</body>
+</html>
